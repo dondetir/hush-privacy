@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hush — Privacy Policy</title>
+<style>
+  body { max-width: 700px; margin: 0 auto; padding: 40px 20px 80px; font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: #1c1c1e; }
+  h1 { font-size: 28px; margin-bottom: 4px; }
+  .updated { color: #666; font-size: 14px; margin-bottom: 32px; }
+  h2 { font-size: 19px; margin-top: 36px; }
+  p, li { color: #333; }
+  code { background: #f0f0f0; padding: 1px 5px; border-radius: 4px; font-size: 14px; }
+  a { color: #1a5fb4; }
+</style>
+</head>
+<body>
+
+<h1>Hush — Privacy Policy</h1>
+<p class="updated">Last updated: July 18, 2026</p>
+
+<p><strong>Hush is a voice dictation app that runs entirely on your device. We do not collect,
+store, or transmit your voice, your transcripts, or your typing.</strong></p>
+
+<h2>What Hush does on your device</h2>
+<p>Hush turns your speech into text using on-device speech-recognition and text-cleanup models
+(Zipformer, Gemma-based E2B, Parakeet). All of that processing — capturing your audio, transcribing
+it, and cleaning it up — happens locally on your phone. Your voice recordings and the text they
+produce are never sent to Hush's developer, to Google, or to any other server.</p>
+
+<h2>Permissions Hush requests, and exactly why</h2>
+<ul>
+  <li><strong>Microphone (<code>RECORD_AUDIO</code>)</strong> — used only while you are actively
+  dictating, to capture your speech for on-device transcription. Audio is processed in memory and
+  discarded once transcription completes; it is never saved to a file or transmitted anywhere.</li>
+  <li><strong>Accessibility Service</strong> — powers Hush's floating dictation bubble, which needs
+  to know when a text field is focused in whatever app you're using so it can appear and let you
+  dictate into it. Hush only watches for focus/window-state changes (not the content typed or
+  displayed in other apps), and never reads, stores, or transmits what's on your screen. Enabling
+  this service requires you to explicitly grant it in Android Settings, after an in-app screen
+  explains what it's for.</li>
+  <li><strong>Internet (<code>INTERNET</code>)</strong> — used for exactly one purpose: downloading
+  the on-device speech and language model files (from huggingface.co) the first time you set up
+  Hush. This only happens after you explicitly confirm a one-time download in an in-app consent
+  dialog. Hush has no analytics, advertising, or crash-reporting network calls of any kind.</li>
+</ul>
+
+<h2>Your personal dictionary</h2>
+<p>If you teach Hush custom words or names (its personal dictionary feature), those terms are
+stored locally on your device only. They are never uploaded or shared.</p>
+
+<h2>What we don't do</h2>
+<ul>
+  <li>We don't collect analytics, usage statistics, or crash reports.</li>
+  <li>We don't use advertising or tracking SDKs.</li>
+  <li>We don't require an account or sign-in.</li>
+  <li>We don't sell or share your data with third parties, because we never receive it in the
+  first place — it never leaves your device.</li>
+</ul>
+
+<h2>Children's privacy</h2>
+<p>Hush is not directed at children and does not knowingly collect any information from children.</p>
+
+<h2>Changes to this policy</h2>
+<p>If this policy changes, the "Last updated" date above will change and the new version will be
+posted at this same URL.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy or Hush's data practices: <a href="mailto:dondeti.apps@gmail.com">dondeti.apps@gmail.com</a></p>
+
+</body>
+</html>
